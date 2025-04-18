@@ -1,24 +1,59 @@
-import React from "react";
+import React, { useState } from "react";
 import { LOGO } from "../constant";
 
 const Login = () => {
+  const [login, setLogin] = useState(true);
+
+  const handleLoginSignUp = () => {
+    setLogin(!login);
+  }
+
   return (
     <>
-    <div className="flex flex-col justify-center items-center mt-20">
-      <fieldset className="fieldset w-md bg-base-200 border border-base-300 p-10 rounded-box gap-3">
-        <legend className="fieldset-legend">Login</legend>
+      <div className="flex flex-col justify-center items-center mt-10">
+        <fieldset className="fieldset w-md border border-base-300 p-10 rounded-box gap-3 bg-base-300">
+          <legend className="fieldset-legend">
+            {login ? "Login" : "Sign Up"}
+          </legend>
 
-        <label className="fieldset-label">Email</label>
-        <input type="email" className="input w-full" placeholder="Email" />
+          {!login && (
+            <>
+              <label className="fieldset-label">FirstName</label>
+              <input
+                type="email"
+                className="input w-full"
+                placeholder="FirstName"
+              />
 
-        <label className="fieldset-label">Password</label>
-        <input type="password" className="input w-full" placeholder="Password" />
+              <label className="fieldset-label">LastName</label>
+              <input
+                type="email"
+                className="input w-full"
+                placeholder="LastName"
+              />
+            </>
+          )}
 
-        <button className="btn btn-neutral mt-4">Login</button>
-      </fieldset>
-    </div>
-    
-    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 fixed bottom-0">
+          <label className="fieldset-label">Email</label>
+          <input type="email" className="input w-full" placeholder="Email" />
+
+          <label className="fieldset-label">Password</label>
+          <input
+            type="password"
+            className="input w-full"
+            placeholder="Password"
+          />
+
+          <div className="flex justify-between underline">
+            <div className="cursor-pointer" onClick={handleLoginSignUp}>{login ? "Sign Up" : "Login"}</div>
+            <div className="cursor-pointer">Forgot Password?</div>
+          </div>
+
+          <button className="btn btn-neutral mt-4">Login</button>
+        </fieldset>
+      </div>
+
+      <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4 fixed bottom-0">
         <aside className="grid-flow-col items-center">
           <svg
             width="36"
@@ -69,7 +104,7 @@ const Login = () => {
           </a>
         </nav>
       </footer>
-  </>
+    </>
   );
 };
 
