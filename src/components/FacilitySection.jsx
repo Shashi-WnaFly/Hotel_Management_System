@@ -27,9 +27,9 @@ const cardDetails = [
 const FacilitySection = () => {
   return (
     <div className="px-18 bg-base-300">
-      <div className="flex flex-col h-screen">
-        <div className="text-center text-6xl my-12">Hotel Facilites</div>
-        <div className="flex gap-2 flex-wrap justify-evenly">
+      <div className="flex flex-col md:h-screen">
+        <div className="text-center text-6xl my-16">Hotel Facilites</div>
+        <div className="flex gap-4 flex-wrap justify-evenly">
           {cardDetails.map((details) => (
             <FacilityCard
               url={details[0]}
