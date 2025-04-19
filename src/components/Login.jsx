@@ -46,10 +46,10 @@ const Login = () => {
 
           <div className="flex justify-between underline">
             <div className="cursor-pointer" onClick={handleLoginSignUp}>{login ? "Sign Up" : "Login"}</div>
-            <div className="cursor-pointer">Forgot Password?</div>
+            {login && <div className="cursor-pointer">Forgot Password?</div>}
           </div>
 
-          <button className="btn btn-neutral mt-4">Login</button>
+          <button className="btn btn-neutral bg-gray-700 mt-4">{login ? "Login" : "Sign Up"}</button>
         </fieldset>
       </div>
 

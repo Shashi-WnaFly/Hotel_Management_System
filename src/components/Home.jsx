@@ -1,14 +1,12 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
-import Header from "./Header";
+import FacilitySection from "./FacilitySection";
 
 const Home = () => {
-  return (
-    <>
-      <Header />
-      <Outlet />
-    </>
-  );
-};
+    return (
+        <div>
+            <FacilitySection />
+        </div>
+    )
+}
 
 export default Home;

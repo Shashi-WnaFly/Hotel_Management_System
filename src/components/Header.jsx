@@ -3,7 +3,7 @@ import { LOGO } from "../constant";
 
 const Header = () => {
   return (
-    <div>
+    <div className="sticky">
       <div className="navbar bg-base-100 shadow-sm">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl bg-gray-700 ">
