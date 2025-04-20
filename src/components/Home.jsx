@@ -1,12 +1,12 @@
 import React from "react";
 import FacilitySection from "./FacilitySection";
-import CommentSection from "./CommentSection";
+import Testimonial from "./Testimonial";
 
 const Home = () => {
     return (
         <div>
             <FacilitySection />
-            <CommentSection />
+            <Testimonial />
         </div>
     )
 }
