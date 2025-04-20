@@ -27,8 +27,8 @@ const cardDetails = [
 const FacilitySection = () => {
   return (
     <div className="px-18 bg-base-300">
-      <div className="flex flex-col md:h-screen">
-        <div className="text-center text-6xl my-16">Hotel Facilites</div>
+      <div className="flex flex-col md:h-screen min-h-max">
+        <div className="text-center text-6xl my-20">Hotel Facilites</div>
         <div className="flex gap-4 flex-wrap justify-evenly">
           {cardDetails.map((details) => (
             <FacilityCard
