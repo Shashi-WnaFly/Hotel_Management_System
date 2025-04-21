@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const Body = () => {
   return (
-    <div>
+    <div className="relative mt-16">
       <Header />
       <Outlet />
     </div>

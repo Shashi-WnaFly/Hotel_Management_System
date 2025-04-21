@@ -3,14 +3,14 @@ import { LOGO } from "../constant";
 
 const Header = () => {
   return (
-    <div className="sticky">
-      <div className="navbar bg-base-100 shadow-sm">
+    <div className="relative">
+      <div className="navbar bg-base-100 shadow-sm fixed top-0 z-20">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl bg-gray-700 ">
+          <a className="btn btn-ghost text-xl">
             <img alt="logo" src={LOGO} />
           </a>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 z-20">
           <div className="dropdown dropdown-end mr-6">
             <div
               tabIndex={0}

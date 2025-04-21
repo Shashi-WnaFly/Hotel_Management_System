@@ -4,8 +4,8 @@ import CommentCard from "./CommentCard";
 const Testimonial = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-base-300 mt-18 overflow-hidden box-border">
-      <div className="text-xl lg:text-3xl my-4">Testimonial</div>
-      <div className="text-xl lg:text-7xl my-4">What Our Client Say</div>
+      <div className="text-xl md:text-3xl my-4">Testimonial</div>
+      <div className="text-3xl md:text-7xl my-4">What Our Client Say</div>
       <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <CommentCard
