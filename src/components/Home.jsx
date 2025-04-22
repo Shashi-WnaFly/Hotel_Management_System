@@ -3,6 +3,7 @@ import FacilitySection from "./FacilitySection";
 import Testimonial from "./Testimonial";
 import Introduction from "./Introduction";
 import About from "./About";
+import RoomCategory from "./RoomCategory";
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Introduction />
             <About />
             <FacilitySection />
+            <RoomCategory />
             <Testimonial />
         </div>
     )
