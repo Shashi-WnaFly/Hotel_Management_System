@@ -4,6 +4,7 @@ import Testimonial from "./Testimonial";
 import Introduction from "./Introduction";
 import About from "./About";
 import RoomCategory from "./RoomCategory";
+import Footer from "./Footer";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <FacilitySection />
             <RoomCategory />
             <Testimonial />
+            <Footer />
         </div>
     )
 }

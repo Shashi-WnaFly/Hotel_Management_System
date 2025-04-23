@@ -4,8 +4,8 @@ const Introduction = () => {
   return (
     <div className="relative h-screen">
       <div className="z-10 absolute text-white w-9/12 translate-x-2/12 text-center animate-pulse">
-        <div className="text-3xl my-12">Welcome to Our Hotel</div>
-        <div className="text-7xl/24 mb-12">
+        <div className="text-2xl md:text-3xl my-12">Welcome to Our Hotel</div>
+        <div className="md:text-7xl/24 text-4xl mb-12">
           Luxury Stay Hotel Experience Comfort & Elegance
         </div>
         <div className="text-lg">

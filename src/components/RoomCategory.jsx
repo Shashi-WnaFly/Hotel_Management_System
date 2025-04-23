@@ -8,11 +8,7 @@ const RoomCategory = () => {
       <div className="grid grid-cols-2 px-4 pt-4">
         <div className="text-6xl flex items-center">
           <span>
-            <img 
-            src={ARROW} 
-            alt="arrow"
-            className="w-20"
-            />
+            <img src={ARROW} alt="arrow" className="w-20" />
           </span>
           <span>Our Rooms</span>
         </div>
