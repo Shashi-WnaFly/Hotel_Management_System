@@ -3,13 +3,13 @@ import { ARROW } from "../constant";
 
 const About = () => {
   return (
-    <div className="flex p-24 md:flex-nowrap flex-wrap w-full">
-      <div className="flex flex-col justify-between px-32">
+    <div className="flex md:p-24 p-8 md:flex-nowrap flex-wrap w-full">
+      <div className="flex flex-col justify-between md:px-32">
         <div className="text-amber-600 text-2xl flex">
           {" "}
           <img className="w-10" src={ARROW} alt="arrowlogo" /> <span className="text-red-500 mr-2">---- </span>About Us
         </div>
-        <p className="text-7xl py-6">Welcome To Our Moonlit Hotel & Resort</p>
+        <p className="md:text-7xl text-4xl py-6">Welcome To Our Moonlit Hotel & Resort</p>
         <p className="text-gray-700 text-base/loose">   
           Welcome to Moonlit, where luxury meets comfort in the heart of canada.
           Since 1999, we have been dedicated to providing an exceptional stay
@@ -24,7 +24,7 @@ const About = () => {
         <img
           src="https://reactheme.com/products/wordpress/moonlit/wp-content/uploads/2025/02/about-1.webp"
           alt="about_image"
-          className="md:h-full"
+          className=""
         />
       </div>
     </div>
