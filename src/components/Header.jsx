@@ -3,8 +3,8 @@ import { LOGO } from "../constant";
 
 const Header = () => {
   return (
-    <div className="relative">
-      <div className="navbar bg-base-100 shadow-sm fixed top-0 z-20">
+    <div className="relative ">
+      <div className="navbar bg-base-200 shadow-sm fixed top-0 z-20">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">
             <img alt="logo" src={LOGO} />
