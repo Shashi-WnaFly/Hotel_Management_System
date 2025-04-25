@@ -11,7 +11,7 @@ const CommentCard = ({ comment, profilePhoto, userName, accupation }) => {
         <FaStar />
         <FaStar />
       </div>
-      <div className="text-2xl text-center text-gray-600">{comment}</div>
+      <div className="md:text-2xl text-base text-center text-gray-600">{comment}</div>
       <div className="flex justify-center gap-4">
         <img
           className="w-20 h-20 object-cover rounded-full"
@@ -19,7 +19,7 @@ const CommentCard = ({ comment, profilePhoto, userName, accupation }) => {
           alt="comment profile"
         />
         <div>
-          <div className="text-3xl">{userName}</div>
+          <div className="md:text-3xl text-xl">{userName}</div>
           <div className="text-gray-700">{accupation}</div>
         </div>
       </div>

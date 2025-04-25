@@ -5,14 +5,14 @@ import { ARROW } from "../constant";
 const RoomCategory = () => {
   return (
     <div className="md:px-18 w-full px-8 md:h-screen">
-        <div className="grid md:h-3/12 md:grid-cols-2 grid-rows-2 md:px-4 md:pt-4 my-auto">
-          <div className="md:text-6xl text-4xl flex items-center">
-            <span>
+        <div className="md:h-3/12 md:flex md:flex-row justify-between gap-74 md:px-4 ">
+          <div className="md:text-6xl text-4xl w-full">
+            <div className="flex items-center h-full p-8 pl-2 ">
               <img src={ARROW} alt="arrow" className="md:w-20 w-10" />
-            </span>
-            <span>Our Rooms</span>
+              <div>Our Rooms</div>
+            </div>
           </div>
-          <div className="md:text-lg/loose text-base/loose text-gray-700">
+          <div className="md:text-lg/loose self-center text-base/loose text-gray-700">
             Our rooms offer a harmonious blend of comfort and elegance, designed
             to provide an exceptional stay for every guest. Each room features
             plush bedding, high-quality linens, and a selection of pillows to
