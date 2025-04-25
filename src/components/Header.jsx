@@ -1,13 +1,23 @@
 import React from "react";
 import { LOGO } from "../constant";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleLogOut = () => {
+    navigate("/login");
+  }
+
+  const handleHome = () => {
+    navigate("/");
+  }
   return (
     <div className="relative ">
       <div className="navbar bg-base-200 shadow-sm fixed top-0 z-20">
         <div className="flex-1">
           <a className="btn btn-ghost text-xl">
-            <img alt="logo" src={LOGO} />
+            <img alt="logo" src={LOGO} onClick={handleHome} />
           </a>
         </div>
         <div className="flex gap-2 z-20">
@@ -38,7 +48,7 @@ const Header = () => {
                 <a>Settings</a>
               </li>
               <li>
-                <a>Logout</a>
+                <a onClick={handleLogOut}>Logout</a>
               </li>
             </ul>
           </div>
