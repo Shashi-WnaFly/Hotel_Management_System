@@ -21,7 +21,7 @@ const RoomCategory = () => {
         </div>
         <div className="mt-4 md:pb-34 md:mt-0 w-full md:h-9/12 mb-12 h-full flex items-center md:flex-nowrap flex-wrap md:gap-16 gap-8 justify-between">
           <RoomCategoryCard title={"Presidential Suite"} price={"4999"} imgURL={"https://reactheme.com/products/wordpress/moonlit/wp-content/uploads/2025/03/post4.webp"}/>
-          <RoomCategoryCard title={"Metropolitan Suite"} price={"7999"} imgURL={"https://reactheme.com/products/wordpress/moonlit/wp-content/uploads/2025/02/3.webp"}/>
+          <RoomCategoryCard title={"Metropolitan Suite"} price={"7999"} imgURL={"https://reactheme.com/products/wordpress/moonlit/wp-content/uploads/2024/10/post3.webp"}/>
           <RoomCategoryCard title={"Primium Delux Room"} price={"2999"} imgURL={"https://reactheme.com/products/wordpress/moonlit/wp-content/uploads/2024/10/post1.webp"}/>
         </div>
       </div>
