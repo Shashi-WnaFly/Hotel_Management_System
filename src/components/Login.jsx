@@ -10,7 +10,7 @@ const Login = () => {
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center mt-10">
+      <div className="flex justify-center items-center">
         <fieldset className="fieldset w-md border border-base-300 p-10 rounded-box gap-3 bg-base-300">
           <legend className="fieldset-legend">
             {login ? "Login" : "Sign Up"}

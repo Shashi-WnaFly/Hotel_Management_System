@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 
 const CommentCard = ({ comment, profilePhoto, userName, accupation }) => {
   return (
-    <div className="px-64 flex flex-col gap-8 mt-8">
+    <div className="md:w-6xl mx-auto px-8 flex flex-col justify-center items-center gap-8 mt-8">
       <div className="text-shadow-amber-400 flex justify-center items-center text-4xl text-amber-500 gap-3">
         <FaStar />
         <FaStar />

@@ -3,8 +3,15 @@ import { FaHome, FaUser } from "react-icons/fa";
 
 const RoomCategoryCard = () => {
   return (
-    <div className="overflow-hidden h-[550px] w-full mb-[-90px] hover:mb-[0px] ">
-      <div className=" p-4 text-white w-full md:w-96 h-full flex justify-end flex-col cursor-pointer gap-4 hover:bg-linear-to-t from-black transition-all ease-in">
+    <div className="overflow-hidden md:h-full h-[550px] w-full relative rounded-xl">
+      <img
+        src={
+          "https://reactheme.com/products/wordpress/moonlit/wp-content/uploads/2025/03/post4.webp"
+        }
+        alt="roomImage"
+        className="md:w-full h-full object-cover "
+      />
+      <div className=" absolute top-12 left-0 z-10 p-4 text-white w-full md:w-full h-full flex justify-end flex-col cursor-pointer hover:top-0 gap-4 hover:bg-linear-to-t from-black transition-all duration-150 ease-in">
         <div className="text-4xl">Presidential Suite</div>
         <div className="flex gap-8 text-lg">
           <div className="flex items-center gap-2">
