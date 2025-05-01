@@ -16,18 +16,18 @@ const Header = () => {
     <div className="relative ">
       <div className="navbar bg-base-200 shadow-sm fixed top-0 z-20">
         <div className="flex-1">
-          <a className="btn btn-ghost text-xl">
-            <img alt="logo" src={LOGO} onClick={handleHome} />
+          <a className="btn btn-ghost">
+            <img alt="logo" className="w-20 md:w-30" src={LOGO} onClick={handleHome} />
           </a>
         </div>
         <div className="flex gap-2 z-20">
-          <div className="dropdown dropdown-end mr-6">
+          <div className="dropdown dropdown-end md:mr-6">
             <div
               tabIndex={0}
               role="button"
               className="btn btn-ghost btn-circle avatar"
             >
-              <div className="w-10 rounded-full">
+              <div className="md:w-10 w-8 rounded-full">
                 <img
                   alt="Tailwind CSS Navbar component"
                   src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
