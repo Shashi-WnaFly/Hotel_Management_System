@@ -17,7 +17,7 @@ const Header = () => {
       <div className="navbar bg-base-200 shadow-sm fixed top-0 z-20">
         <div className="flex-1">
           <a className="btn btn-ghost">
-            <img alt="logo" className="w-20 md:w-30" src={LOGO} onClick={handleHome} />
+            <img alt="logo" className="w-22 md:w-30" src={LOGO} onClick={handleHome} />
           </a>
         </div>
         <div className="flex gap-2 z-20">
