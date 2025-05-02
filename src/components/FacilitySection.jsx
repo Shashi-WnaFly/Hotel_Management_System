@@ -32,7 +32,7 @@ const FacilitySection = () => {
   return (
     <div className=" px-4 md:px-18 pb-4 bg-base-300">
       <div className="flex flex-col md:h-screen min-h-max">
-        <div className="text-center md:text-6xl text-5xl py-10 md:my-20 px-30">Hotel Facilites</div>
+        <div className="text-center md:text-6xl text-5xl py-10 md:my-20 px-20">Hotel Facilites</div>
         <div className="flex gap-4 flex-wrap justify-evenly">
           {cardDetails.map((details) => (
             <FacilityCard
