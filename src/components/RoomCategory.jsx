@@ -4,7 +4,7 @@ import { ARROW } from "../constant";
 
 const RoomCategory = () => {
   return (
-    <div className="md:px-18 w-full px-8 md:h-[900px]">
+    <div className="md:px-18 w-full px-4 md:h-[900px]">
         <div className="md:h-3/12 md:flex md:flex-row justify-between gap-74 md:px-4 ">
           <div className="md:text-6xl text-4xl w-full">
             <div className="flex items-center h-full p-8 pl-2 ">

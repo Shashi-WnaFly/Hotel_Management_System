@@ -30,7 +30,7 @@ const cardDetails = [
 
 const FacilitySection = () => {
   return (
-    <div className="px-18 pb-4 bg-base-300">
+    <div className=" px-4 md:px-18 pb-4 bg-base-300">
       <div className="flex flex-col md:h-screen min-h-max">
         <div className="text-center md:text-6xl text-5xl my-20">Hotel Facilites</div>
         <div className="flex gap-4 flex-wrap justify-evenly">

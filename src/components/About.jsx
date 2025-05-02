@@ -3,15 +3,15 @@ import { ARROW } from "../constant";
 
 const About = () => {
   return (
-    <div className="w-full ">
-      <div className="flex md:w-7xl gap-4 mx-auto p-8 md:flex-nowrap flex-wrap w-full">
+    <div className="w-full">
+      <div className="flex md:w-7xl gap-4 mx-auto py-8 px-4 md:p-8 md:flex-nowrap flex-wrap w-full">
         <div className="flex flex-col justify-between gap-4">
           <div className="text-amber-600 text-2xl md:text-5xl flex">
             {" "}
             <img className="w-10 md:w-14" src={ARROW} alt="arrowlogo" />{" "}
             <span className="text-red-500 mr-2"> </span>About Us
           </div>
-          <p className="md:text-7xl text-4xl py-6">
+          <p className="md:text-7xl text-4xl py-4">
             Welcome To Our Moonlit Hotel & Resort
           </p>
           <p className="text-gray-700 text-base/loose">
